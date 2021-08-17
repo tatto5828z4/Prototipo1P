@@ -16,7 +16,7 @@ namespace Prototipo1p
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmCompraE());
+            Application.Run(new frmPrincipal());
         }
     }
 }

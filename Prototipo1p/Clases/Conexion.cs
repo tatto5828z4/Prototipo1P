@@ -22,7 +22,6 @@ namespace Prototipo1p
             try
             {
                 MySqlConnection conexionBD = new MySqlConnection(cadenaConexion);
-
                 return conexionBD;
             }
             catch (MySqlException ex)

@@ -21,5 +21,12 @@ namespace Prototipo1p
         {
 
         }
+
+        private void pnlCerrar_MouseClick(object sender, MouseEventArgs e)
+        {
+            frmPrincipal obj = new frmPrincipal();
+            obj.Visible = true;
+            Visible = false;
+        }
     }
 }

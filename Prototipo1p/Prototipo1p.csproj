@@ -90,14 +90,35 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Clases\Conexion.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="frmCompraE.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="frmCompraE.Designer.cs">
+      <DependentUpon>frmCompraE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCompraD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCompraD.Designer.cs">
+      <DependentUpon>frmCompraD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrincipal.Designer.cs">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmCompraE.resx">
+      <DependentUpon>frmCompraE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCompraD.resx">
+      <DependentUpon>frmCompraD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrincipal.resx">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

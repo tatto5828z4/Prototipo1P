@@ -16,5 +16,17 @@ namespace Prototipo1p
         {
             InitializeComponent();
         }
+
+        private void pnlCerrar_MouseClick(object sender, MouseEventArgs e)
+        {
+            frmPrincipal obj = new frmPrincipal();
+            obj.Visible = true;
+            Visible = false;
+        }
+
+        private void pnlCerrar_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
