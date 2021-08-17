@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Prototipo1p.Clases
 {
-    class CompraEncabezado
+    public class CompraEncabezado
     {
+
+
     }
 }
